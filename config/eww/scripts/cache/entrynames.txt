@@ -1,0 +1,84 @@
+About Xfce
+Ardour
+Avahi SSH Server Browser
+Avahi VNC Server Browser
+Avahi Zeroconf Browser
+Bitwarden
+Blender
+Bottles
+Bulk Rename
+CMake
+Calculator
+Cameractrls
+Counter-Strike 2
+Discord
+Electron 22
+Electron 23
+Electron 24
+Electron 25
+Element
+File Manager Settings
+Firefox Web Browser
+Godot Engine
+Guilded
+Hardware Locality lstopo
+Heroic Games Launcher
+Htop
+Idol Showdown
+If Found
+Just Cause 3
+KWrite
+Kate
+Krita
+LibreWolf
+Lutris
+MEGAsync
+Muse Dash
+OBS Studio
+Obsidian
+Okular
+Open a New Window
+OpenJDK Java 21 Console
+OpenJDK Java 21 Shell
+OpenShot Video Editor
+OpenTabletDriver
+Oracle VM VirtualBox
+PeaZip
+Pinta
+PipeWire Media System
+Protontricks
+PulseAudio Volume Control
+Pulsemeeter
+Qt Assistant
+Qt Designer
+Qt Linguist
+Qt QDBusViewer 
+Qt V4L2 test Utility
+Qt V4L2 video capture utility
+Revolt
+Satisfactory
+Space Engineers
+Spotube
+Starbound
+Steam (Runtime)
+Steam Linux Runtime 3.0 (sniper)
+Stick Fight: The Game
+THE FINALS
+Tabletop Simulator
+Tap Ninja
+Tenacity
+Thunar File Manager
+Time Idle RPG
+Timeshift
+Titanfall® 2
+Ubisoft Connect
+Ubisoft Connect
+UserFeedback Console
+VLC media player
+Warframe
+Winetricks
+kitty
+mpv Media Player
+osu!lazer
+scrcpy
+scrcpy (console)
