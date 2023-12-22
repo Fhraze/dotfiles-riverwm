@@ -4,9 +4,14 @@ echo "this script assumes you're on an Arch-based distro and have yay installed.
 sleep 5
 
 # Install packages
-yay -S zsh river thunar audacious grim slurp wl-clipboard dunst eww-wayland terminator wofi wofi-emoji playerctl fastfetch swaybg ripgrep fd eza pipewire pipewire-pulse wireplumber --needed
+yay -S zsh river thunar audacious grim slurp wl-clipboard dunst eww-wayland terminator wofi wofi-emoji playerctl fastfetch swaybg ripgrep fd eza pipewire pipewire-pulse wireplumber --needed --no-confirm
+
+# Make basic directories if they don't exist
+mkdir ~/.config
+mkdir ~/.local
 
 # Copy config files, binaries, fonts and icons
+cp -r config/* ~/.config/.
 cp -r local/bin ~/.local/.
 cp -r local/fonts ~/.local/.
 sudo cp -r usrshare/icons /usr/share/.
