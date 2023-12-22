@@ -32,5 +32,5 @@ Unfortunately the eww widgets and bar won't work well on displays with an aspect
 - pipewire-pulse
 - wireplumber
 
-(Those are Arch packages, may be different depending on your distro)
+(Those are Arch packages, may have different names depending on your distro)
 
