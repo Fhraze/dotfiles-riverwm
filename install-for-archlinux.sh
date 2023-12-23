@@ -4,7 +4,7 @@ echo "this script assumes you're on an Arch-based distro and have yay installed.
 sleep 5
 
 # Install packages
-yay -S zsh river thunar audacious grim slurp wl-clipboard dunst eww-wayland terminator wofi wofi-emoji playerctl fastfetch swaybg ripgrep fd eza pipewire pipewire-pulse wireplumber --needed --no-confirm
+yay -S zsh river thunar audacious grim slurp wl-clipboard dunst eww-wayland terminator wofi wofi-emoji playerctl fastfetch swaybg ripgrep fd eza pipewire pipewire-pulse wireplumber --needed --noconfirm
 
 # Make basic directories if they don't exist
 mkdir ~/.config
