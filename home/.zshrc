@@ -43,7 +43,7 @@ export PATH
 
 alias river='dbus-launch --sh-syntax --exit-with-session river'
 
-alias sudo='doas'
+#alias sudo='doas'
 alias find='fd'
 alias grep='rg'
 alias ls='eza --sort=type --icons=always'
