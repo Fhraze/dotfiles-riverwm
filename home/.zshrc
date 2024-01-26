@@ -49,7 +49,7 @@ alias grep='rg'
 alias ls='eza --sort=type --icons=always'
 alias ff='fastfetch'
 
-alias mod-discord='doas cp $HOME/.config/app.asar /opt/discord/resources/'
+alias mod-discord='sudo cp $HOME/.config/app.asar /opt/discord/resources/'
 
 
 
