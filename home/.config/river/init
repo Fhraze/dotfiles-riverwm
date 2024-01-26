@@ -187,7 +187,7 @@ riverctl map normal Super+Shift S spawn "paplay --volume=45536 $RIVERDIR/termbee
 riverctl map normal Super+Shift R spawn "$RIVERDIR/record-script.sh"
 
 # Set keyboard layout
-riverctl keyboard-layout br
+riverctl keyboard-layout us
 
 # Keyboard Layout Switcher Script
 riverctl map normal Super Space spawn "paplay --volume=45536 $RIVERDIR/termbeep.wav & $RIVERDIR/kblayout-switcher.sh"
