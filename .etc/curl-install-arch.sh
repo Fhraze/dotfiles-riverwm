@@ -10,6 +10,7 @@ cd dotfiles-riverwm
 
 # Install packages
 echo "Installing packages"
+sudo pacman -Syyu
 for P in $( <./packages)
 do
   sudo pacman -S ${P} --needed --noconfirm
