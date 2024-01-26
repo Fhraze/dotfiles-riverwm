@@ -1,0 +1,58 @@
+[global_config]
+  focus = mouse
+  borderless = True
+  hide_from_taskbar = True
+  inactive_color_offset = 0.6944444444444444
+  suppress_multiple_term_dialog = True
+[keybindings]
+  help = F12
+[profiles]
+  [[default]]
+    background_darkness = 0.23
+    background_type = image
+    background_image = /usr/share/terminator/terminal-borders-nice.png
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    font = Monospace 12
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_lines = 2000
+    palette = "#000000:#aa6c88:#8fd4be:#d9cf99:#99c1f1:#9c5daf:#68a5d6:#deddda:#555555:#824673:#7ac7a2:#eee969:#62a0ea:#ac65d1:#72ecec:#ffffff"
+    use_system_font = False
+    copy_on_selection = True
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#241f31"
+    title_transmit_bg_color = "#000000"
+    title_receive_fg_color = "#241f31"
+    title_receive_bg_color = "#000000"
+    title_inactive_bg_color = "#000000"
+    title_use_system_font = False
+    title_font = Monospace 1
+  [[black]]
+    icon_bell = False
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    font = Monospace 12
+    foreground_color = "#ffffff"
+    scrollbar_position = hidden
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    title_hide_sizetext = True
+    title_transmit_fg_color = "#000000"
+    title_transmit_bg_color = "#000000"
+    title_receive_fg_color = "#000000"
+    title_receive_bg_color = "#000000"
+    title_inactive_bg_color = "#000000"
+    title_use_system_font = False
+    title_font = Monospace 1
+[layouts]
+  [[default]]
+    [[[window0]]]
+      type = Window
+      parent = ""
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+[plugins]

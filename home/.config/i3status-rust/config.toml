@@ -1,0 +1,46 @@
+[theme]
+theme = "native"
+[theme.overrides]
+separator = "  "
+idle_bg = "#333344"
+idle_fg = "#ffffff"
+
+[icons]
+icons = "awesome4"
+[icons.overrides]
+bat = ["|E|", "|_|", "|=|", "|F|"]
+bat_charging = "|^| "
+
+[[block]]
+block = "custom"
+command = "echo  $USER@$HOST -  `uname -sr`"
+interval = "once"
+[[block.click]]
+button = "left"
+cmd = "paplay --volume=45536 $HOME/.config/river/coolblep.wav & wofi --show drun --allow-images && paplay --volume=45536 $HOME/.config/river/coolblepclose.wav"
+
+[[block]]
+block = "custom"
+command = "echo  `pacman -Qsq | wc --lines`"
+interval = 20
+
+[[block]]
+block = "disk_space"
+path = "/"
+info_type = "available"
+alert_unit = "GB"
+interval = 20
+warning = 20.0
+alert = 10.0
+format = "  $available.eng(w:2) "
+
+[[block]]
+block = "sound"
+[[block.click]]
+button = "left"
+cmd = "pavucontrol"
+
+[[block]]
+block = "time"
+interval = 5
+format = " $timestamp.datetime(f:'󰃭 %a %d/%m   %R') "
