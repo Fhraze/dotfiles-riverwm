@@ -2,6 +2,11 @@
 ---
 My minimalistic configuration for the River window manager!
 
+**Single command installation for Arch-based distros:**
+```bash
+bash <(curl -s https://raw.githubusercontent.com/Fhraze/dotfiles-riverwm/main/.etc/curl-install-arch.sh)
+```
+
 #### Previews:
 ![dotfiles-preview](https://github.com/Fhraze/dotfiles-riverwm/assets/76172824/e4e8de11-643e-49e7-af99-72e0202358db)
 
