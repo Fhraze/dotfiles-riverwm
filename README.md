@@ -14,6 +14,9 @@ bash <(curl -s https://raw.githubusercontent.com/Fhraze/dotfiles-riverwm/main/.e
 
 ![print-demo](https://github.com/Fhraze/dotfiles-riverwm/assets/76172824/3b7d56a6-d0dc-4601-92c2-f5e664760f77)
 
+#### Laptop config:
+![image](https://github.com/Fhraze/dotfiles-riverwm/assets/76172824/85f8c8f3-c48f-415f-af3e-d874207ac439)
+
 #### List of Packages:
 - river
 - thunar
