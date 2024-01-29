@@ -2,7 +2,7 @@
 ---
 My minimalistic configuration for the River window manager!
 
-_Also, for the people that find the wallpaper too distracting there's other cool wallpapers at .config/river/wallpapers!_
+_Also, for the people that find the wallpaper too distracting there are other cool wallpapers at .config/river/wallpapers!_
 
 **Single command installation for Arch-based distros:**
 ```bash
