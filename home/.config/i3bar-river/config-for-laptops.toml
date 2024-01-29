@@ -1,0 +1,50 @@
+# The status generator command.
+# Optional: with no status generator the bar will display only tags and layout name.
+command = "i3status-rs"
+
+# Colors
+background = "#333344"
+color = "#ffffffff"
+separator = "#9a8a62ff"
+tag_fg = "#ffffff"
+tag_bg = "#333344"
+tag_focused_fg = "#000000"
+tag_focused_bg = "#ffffff"
+tag_urgent_fg = "#000000"
+tag_urgent_bg = "#ff0c00"
+tag_inactive_fg = "#444455"
+tag_inactive_bg = "#333344"
+
+# The font and various sizes
+font = "monospace 14"
+height = 24
+margin_top = 0
+margin_bottom = 0
+margin_left = 0
+margin_right = 0
+separator_width = 2.0
+tags_r = 0.0
+tags_padding = 25.0
+blocks_r = 0.0
+blocks_overlap = 0.0
+
+# Misc
+position = "top" # either "top" or "bottom"
+hide_inactive_tags = false
+invert_touchpad_scrolling = true
+show_layout_name = false
+blend = true # whether tags/blocks colors should blend with bar's background
+show_mode = true
+
+# WM-specific options
+[wm.river]
+max_tag = 6 # Show only the first nine tags
+
+# Per output overrides
+# [output.your-output-name]
+# right now only "enable" option is available
+# enable = false
+#
+# You can have any number of overrides
+# [output.eDP-1]
+# enable = false
