@@ -41,6 +41,7 @@ bash <(curl -s https://raw.githubusercontent.com/Fhraze/dotfiles-riverwm/main/.e
 - pipewire-pulse
 - wireplumber
 - starship
+- acpi
 
 (Those are Arch packages, may have different names depending on your distro)
 
